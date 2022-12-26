@@ -1,0 +1,5 @@
+Progress Record 
+
+
+Day 0 - Learned about Time and Space complexity.
+
