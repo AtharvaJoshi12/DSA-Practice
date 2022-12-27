@@ -1,3 +1,7 @@
+// XOR is used 
+// 1 XOR 1 = 0, 2 XOR 2 = 0 etc
+// So we will do xor on complete array and the remaining element is unique element.
+
 public class practice {
     public static void printArray(int[] array)
     {
