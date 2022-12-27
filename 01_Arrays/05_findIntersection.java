@@ -1,3 +1,5 @@
+// 2 Pointer approach is used.
+
 public class practice {
     public static void printArray(int[] array)
     {
