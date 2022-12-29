@@ -1,5 +1,6 @@
-import java.util.Scanner;
 
+// Find union 
+// Link- https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1
 
 public class practice {
 
@@ -26,7 +27,7 @@ public class practice {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    
         int []array1 = {1,2,3,4,5};
         int []array2 = {1,2,3 };
         findUnion(array1,array2);
