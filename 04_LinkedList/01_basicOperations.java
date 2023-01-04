@@ -17,7 +17,7 @@ public class practice {
         }
     }
     Node head;
-    public void addFirst(String data)
+    public void insertAtHead(String data)
     {
         Node newNode = new Node(data);
         if (head == null){
@@ -28,7 +28,7 @@ public class practice {
         head = newNode;
     }
 
-    public void addLast(String data)
+    public void insertAtLast(String data)
     {
         Node newNode = new Node(data);
         if (head == null){
@@ -91,11 +91,36 @@ public class practice {
     {
         return size;
     }
+
+    public void insertAtPosition(int position,String data){
+       Node temp = head;
+       int cnt = 1;
+       Node newNode = new Node(data);
+
+       if (position==1)
+       {
+           newNode.next = head;
+           head = newNode;
+           return;
+       }
+       while (cnt<position-1)
+       {
+           temp=temp.next;
+           cnt++;
+       }
+
+
+       newNode.next = temp.next;
+       temp.next = newNode;
+
+    }
+
+
     public static void main(String[] args) {
         practice list = new practice();
-        list.addFirst("aj");
-        list.addFirst("hi");
-        list.addLast("bye");
+        list.insertAtHead("aj");
+        list.insertAtHead("hi");
+        list.insertAtLast("bye");
         list.printList();
         list.deleteFirst();
         list.deleteLast();
