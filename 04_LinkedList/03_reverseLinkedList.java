@@ -72,6 +72,16 @@ public class practice {
         head = prevNode;
     }
 
+    public static Node reverseLLRecursively(Node head){
+        if (head == null || head.next == null)
+            return head;
+
+        Node newHead  = reverseLLRecursively(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
+    }
+
     public static void main(String[] args) {
         practice list = new practice();
         list.addFirst(4);
