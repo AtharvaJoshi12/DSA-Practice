@@ -4,7 +4,7 @@ public class practice {
     {
         int start = 0;
         int end = arr.length-1;
-        int mid = (start+end)/2; // We can also use --> mid = start + (end - start)/2; For higher calculations
+        int mid = (start+end)/2; // We should use --> mid = start + (end - start)/2; For higher calculations
 
         while (start<=end)
         {
@@ -18,6 +18,18 @@ public class practice {
             mid = (start+end)/2;
         }
         return -1;
+    }
+
+    public static int recursiveBinarySearch(int num , int start, int end , int arr[]){
+        if (start > end)
+            return -1;
+        int mid = (start + end)/2;
+        if(arr[mid]==num)
+            return mid;
+        if(num > arr[mid])
+            return recursiveBinarySearch(num,mid+1,end,arr);
+
+        return recursiveBinarySearch(num,start,mid-1,arr);
     }
 
     public static void main(String[] args) {
