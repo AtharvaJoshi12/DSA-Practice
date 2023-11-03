@@ -28,8 +28,8 @@ public class VerticalOrderTraversal {
         verticalLevels.add(0);
 
         while (!queue.isEmpty()) {
-            TreeNode current = queue.poll();
-            int level = verticalLevels.poll();
+            TreeNode current = queue.remove();
+            int level = verticalLevels.remove();
 
             if (!verticalMap.containsKey(level)) {
                 verticalMap.put(level, new ArrayList<>());
