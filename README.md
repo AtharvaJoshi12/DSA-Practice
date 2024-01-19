@@ -1,4 +1,4 @@
-# DSA Practice Repository
+# DSA Practice Repository | Solved Problems✅ - 122
 
 ![Data Structures](https://img.shields.io/badge/Data%20Structures-Learning-brightgreen)
 ![Algorithms](https://img.shields.io/badge/Algorithms-Practice-yellow)
