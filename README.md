@@ -1,4 +1,4 @@
-# DSA Practice Repository | Solved Problems✅ - 122
+# DSA Practice Repository | Solved Problems✅ - 123
 
 ![Data Structures](https://img.shields.io/badge/Data%20Structures-Learning-brightgreen)
 ![Algorithms](https://img.shields.io/badge/Algorithms-Practice-yellow)
@@ -19,13 +19,11 @@ Welcome to my DSA Practice repository! 🚀 This space is dedicated to my daily 
 
 - **Topics:** I organize questions by DSA topics like arrays, linked lists, sorting algorithms, and more, making it easier to navigate.
 
-
 ## How to Use
 
 1. **Exploration:** Feel free to explore the code solutions and the variety of DSA topics covered in this repository.
 
 2. **Learning Together:** If you're on your DSA learning journey too, you're welcome to collaborate, provide feedback, or use this repository as a resource.
-
 
 ## Connect with Me
 
@@ -38,4 +36,3 @@ I'm always eager to connect with fellow developers and coding enthusiasts. You c
 I'm grateful for the immense support and inspiration from the coding community. Let's continue to learn, solve problems, and grow together in the fascinating world of DSA! 💡
 
 ![Practice Makes Perfect](https://img.shields.io/badge/Practice-Makes%20Perfect-blue)
-
